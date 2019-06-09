@@ -1,7 +1,7 @@
 #pragma once
 #include "Common.h"
 #include "BloomFilter.h"
-#include "C:\Users\Owner\Documents\School\CS 91R\nlopt\nlopt.h"
+#include "nlopt.h"
 
 class StackedBloomFilter
 {
@@ -162,7 +162,7 @@ public:
 		double positive_fpr = 1;
 		double negative_fpr = 1;
 		for (int i = 0; i <= num_layers*2; i++) {
-			int num_hashes = max((int)(round(-log(lfprs[i]) / log(2)) + .5),1);
+			int num_hashes = std::max((int)(round(-log(lfprs[i]) / log(2)) + .5),1);
 			double temp_size;
 			if (((i+2) % 2) == 0) {
 				temp_size = 1 / (1 - (double)pow((1 - (double)pow(lfprs[i], (double)1 / num_hashes)), (double)1 / (positive_fpr*num_positive*num_hashes)));
@@ -227,7 +227,7 @@ public:
 		double positive_fpr = 1;
 		double negative_fpr = 1;
 		for (int i = 0; i <= num_layers*2; i++) {
-			int num_hashes = max((int)(round(-log(lfprs[i]) / log(2))), 1);
+			int num_hashes = std::max((int)(round(-log(lfprs[i]) / log(2))), 1);
 			if ((i % 2) == 0) {
 				size += 1 / (1 - (double)pow((1 - (double)pow(lfprs[i], (double)1 / num_hashes)), (double)1 / (positive_fpr*num_positive*num_hashes)));
 				negative_fpr *= lfprs[i];

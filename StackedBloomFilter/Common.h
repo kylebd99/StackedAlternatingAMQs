@@ -7,7 +7,6 @@
 #include <functional>
 #include <algorithm>
 #include <numeric>
-#include "windows.h"
 #include "CityHash.h"
 
 #define DBOUT( s )            \

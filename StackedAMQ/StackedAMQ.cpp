@@ -2,8 +2,9 @@
 
 
 
-StackedAMQ::StackedAMQ(std::vector<std::pair<char*, unsigned int>> pos_elements, std::vector<std::pair<char*, unsigned int>> neg_elements, const char* AMQ_Type, size_t total_size)
+StackedAMQ::StackedAMQ(std::vector<std::pair<char*, unsigned int>> pos_elements, std::vector<std::pair<char*, unsigned int>> neg_elements, const char* AMQ_Type, size_t total_size,bool opt_table_exists, const char* opt_table_file_path)
 {
+
 }
 
 

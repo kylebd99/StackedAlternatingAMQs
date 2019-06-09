@@ -6,7 +6,7 @@ class StackedAMQ
 private:
 	std::vector<std::vector<std::vector<double>>> opt_table;
 public:
-	StackedAMQ(std::vector<std::pair<char*, unsigned int>> pos_elements, std::vector<std::pair<char*, unsigned int>> neg_elements, const char* AMQ_Type, size_t total_size, bool opt_table_exists, const char* opt_table);
+	StackedAMQ(std::vector<std::pair<char*, unsigned int>> pos_elements, std::vector<std::pair<char*, unsigned int>> neg_elements, const char* AMQ_Type, size_t total_size, bool opt_table_exists, const char* opt_table_file_path);
 	~StackedAMQ();
 	bool LookupElement(char* element, unsigned int length);
 	void InsertElement(char* element, unsigned int length);

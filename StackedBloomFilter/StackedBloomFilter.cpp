@@ -19,7 +19,7 @@ StackedBloomFilter::StackedBloomFilter(int num_layers, std::vector<long> positiv
 	double positive_fpr = 1;
 	double negative_fpr = 1;
 	for (int i = 0; i <= num_layers * 2; i++) {
-		int num_hashes = max((int)(round(-log(layer_fpr[i]) / log(2))), 1);
+		int num_hashes = std::max((int)(round(-log(layer_fpr[i]) / log(2))), 1);
 		size_t size = 0;
 		if ((i % 2) == 0) {
 			size = 1 / (1 - (double)pow((1 - (double)pow(layer_fpr[i], (double)1 / num_hashes)), (double)1 / (positive_fpr*num_positive_*num_hashes)));
