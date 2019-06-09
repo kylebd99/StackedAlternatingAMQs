@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StackedBloomFilter", "StackedBloomFilter\StackedBloomFilter.vcxproj", "{58316EC1-B413-4D4D-8259-F9080DCF7535}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataGenerator", "Project1\Project1.vcxproj", "{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test File", "Project2\Project2.vcxproj", "{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Amplified Bloom Filters", "Project3\Project3.vcxproj", "{328FDAA1-F3D5-4542-83DD-5C57D7A35741}"
+	ProjectSection(ProjectDependencies) = postProject
+		{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E} = {94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}
+		{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1} = {F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}
+		{58316EC1-B413-4D4D-8259-F9080DCF7535} = {58316EC1-B413-4D4D-8259-F9080DCF7535}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58316EC1-B413-4D4D-8259-F9080DCF7535}.Debug|x64.ActiveCfg = Debug|x64
+		{58316EC1-B413-4D4D-8259-F9080DCF7535}.Debug|x64.Build.0 = Debug|x64
+		{58316EC1-B413-4D4D-8259-F9080DCF7535}.Debug|x86.ActiveCfg = Debug|Win32
+		{58316EC1-B413-4D4D-8259-F9080DCF7535}.Debug|x86.Build.0 = Debug|Win32
+		{58316EC1-B413-4D4D-8259-F9080DCF7535}.Release|x64.ActiveCfg = Release|x64
+		{58316EC1-B413-4D4D-8259-F9080DCF7535}.Release|x64.Build.0 = Release|x64
+		{58316EC1-B413-4D4D-8259-F9080DCF7535}.Release|x86.ActiveCfg = Release|Win32
+		{58316EC1-B413-4D4D-8259-F9080DCF7535}.Release|x86.Build.0 = Release|Win32
+		{58316EC1-B413-4D4D-8259-F9080DCF7535}.Release|x86.Deploy.0 = Release|Win32
+		{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}.Debug|x64.ActiveCfg = Debug|x64
+		{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}.Debug|x64.Build.0 = Debug|x64
+		{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}.Debug|x86.Build.0 = Debug|Win32
+		{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}.Release|x64.ActiveCfg = Release|x64
+		{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}.Release|x64.Build.0 = Release|x64
+		{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}.Release|x86.ActiveCfg = Release|Win32
+		{F2E9BAB6-4DC9-41D3-8984-A0EE7225CAA1}.Release|x86.Build.0 = Release|Win32
+		{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}.Debug|x64.ActiveCfg = Debug|x64
+		{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}.Debug|x64.Build.0 = Debug|x64
+		{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}.Debug|x86.Build.0 = Debug|Win32
+		{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}.Release|x64.ActiveCfg = Release|x64
+		{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}.Release|x64.Build.0 = Release|x64
+		{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}.Release|x86.ActiveCfg = Release|Win32
+		{94EC9F57-3F0E-40EC-BFE9-81BBC471ED5E}.Release|x86.Build.0 = Release|Win32
+		{328FDAA1-F3D5-4542-83DD-5C57D7A35741}.Debug|x64.ActiveCfg = Debug|x64
+		{328FDAA1-F3D5-4542-83DD-5C57D7A35741}.Debug|x64.Build.0 = Debug|x64
+		{328FDAA1-F3D5-4542-83DD-5C57D7A35741}.Debug|x86.ActiveCfg = Debug|Win32
+		{328FDAA1-F3D5-4542-83DD-5C57D7A35741}.Debug|x86.Build.0 = Debug|Win32
+		{328FDAA1-F3D5-4542-83DD-5C57D7A35741}.Release|x64.ActiveCfg = Release|x64
+		{328FDAA1-F3D5-4542-83DD-5C57D7A35741}.Release|x64.Build.0 = Release|x64
+		{328FDAA1-F3D5-4542-83DD-5C57D7A35741}.Release|x86.ActiveCfg = Release|Win32
+		{328FDAA1-F3D5-4542-83DD-5C57D7A35741}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18DDCE24-4285-41B1-B256-058E3A87F23E}
+	EndGlobalSection
+EndGlobal

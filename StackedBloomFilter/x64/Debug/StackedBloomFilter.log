@@ -1,0 +1,18 @@
+﻿  StackedBloomFilter.cpp
+c:\users\owner\documents\school\cs 91r\nlopt\nlopt.h(57): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(22): warning C4244: 'argument': conversion from 'double' to '::size_t', possible loss of data
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(105): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(112): warning C4018: '<': signed/unsigned mismatch
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(121): warning C4018: '<': signed/unsigned mismatch
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(134): warning C4018: '<': signed/unsigned mismatch
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(145): warning C4018: '<': signed/unsigned mismatch
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(148): warning C4018: '<': signed/unsigned mismatch
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\stackedbloomfilter.cpp(154): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+  BloomFilter.cpp
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\bloomfilter.cpp(37): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+c:\users\owner\source\repos\stacked amq data structure\stackedbloomfilter\bloomfilter.cpp(38): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+  Generating Code...
+  StackedBloomFilter.vcxproj -> C:\Users\Owner\source\repos\Stacked AMQ Data Structure\x64\Debug\StackedBloomFilter.lib
