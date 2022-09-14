@@ -1,4 +1,4 @@
-# StackedAlternatingAMQs
+# Stacked Filters
 
 ## Overview
 
